@@ -1,1 +1,26 @@
-node_modules
+# dependencies
+node_modules/
+client/node_modules/
+
+# env files (IMPORTANT)
+.env
+client/.env
+server/.env
+
+# build files
+dist/
+build/
+client/dist/
+client/build/
+
+# logs
+logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
